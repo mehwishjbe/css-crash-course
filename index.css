@@ -69,6 +69,9 @@ body {
   list-style-image: url("");
   list-style: circle;
 }
+#fix{
+  color: darkgrey;
+}
 a {
   text-decoration: none;
   color: black;
@@ -80,7 +83,7 @@ a:active {
   color: purple;
 }
 a:visited {
-  color: brown;
+  color: gray;
 }
 
 /* FROM STARTED */
@@ -155,14 +158,13 @@ a:visited {
 .p-box {
   width: 600px;
   height: 300px;
-  border: 1px solid red;
+  border: 3px solid rgb(121, 118, 118);
   margin: auto;
   position: relative;
   margin-bottom: 20px;
-  background-image: url("https://img.freepik.com/premium-vector/modern-abstract-shapes-postcard-brochure-cover-design-with-pastel-color-palette-gradient-background_29865-3129.jpg");
+  background-image: url("https://e1.pxfuel.com/desktop-wallpaper/455/602/desktop-wallpaper-best-5-gray-on-hip-light-grey-colour.jpg");
   background-repeat: no-repeat;
   background-position: center center;
-
 }
 .p-box h1 {
   position: absolute;
@@ -181,8 +183,8 @@ a:visited {
 /* POSITION END */
 
 
-/* PSEUDO STARTED */
 
+/* PSEUDO STARTED */
 .my-list li:first-child{
   background-color: lightslategray;
 }
@@ -192,11 +194,11 @@ a:visited {
 .my-list li:nth-child(5){
   background-color: burlywood;
 }
-.my-list li:nth-child(even){
-  background-color: skyblue;
-}
 .my-list li:nth-child(odd){
-  background-color: lightslategray;
+  background-color: rgb(161, 158, 158);
+}
+.my-list li:nth-child(even){
+  background-color: gray;
 }
 /* PSEUDO END */
 
