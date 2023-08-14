@@ -159,6 +159,10 @@ a:visited {
   margin: auto;
   position: relative;
   margin-bottom: 20px;
+  background-image: url("https://img.freepik.com/premium-vector/modern-abstract-shapes-postcard-brochure-cover-design-with-pastel-color-palette-gradient-background_29865-3129.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+
 }
 .p-box h1 {
   position: absolute;
