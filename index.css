@@ -1,128 +1,144 @@
-p {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    text-decoration: underline;
-    text-transform: capitalize;
-    letter-spacing: 0.1em;
-    word-spacing: 0.1em;
-  }
-  body {
-    color: azure;
-    background-color: darkgray;
-    color: azure;
-    font-family: "Times New Roman", Times, serif;
-    font-size: medium;
-    font-weight: normal; /*font-weight: bold;*/
-    /*font: normal 16px Times New Roman', Times;*/
-    line-height: 1.6em;
-    margin: 0;
-  }
-  .box-1 {
-    background-color: rgb(198, 189, 189);
-    color: black;
-    border: 3px rgb(119, 119, 119) solid;
-    border-bottom: 10px rgb(101, 100, 100) solid;
-    padding: 20px;
-    padding-right: 4%;
-    margin: 0 0;
-  }
-  .container {
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
+#p1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: capitalize;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+}
+body {
+  color: black;
+  background-color: darkgray;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  font-weight: normal; /*font-weight: bold;*/
+  /*font: normal 16px Times New Roman', Times;*/
+  line-height: 1.6em;
+  margin: 0;
+}
+.clr {
+  clear: both;
+}
+.box-1 {
+  background-color: rgb(198, 189, 189);
+  color: black;
+  border: 3px rgb(119, 119, 119) solid;
+  border-bottom: 10px rgb(101, 100, 100) solid;
+  padding: 20px;
+  padding-right: 4%;
+  margin: 0 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: lightgray;
+  color: gray;
+  border: 5px gray solid;
+  padding-left: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.categories {
+  border: 1px gray solid;
+  padding: 10px;
+  border-radius: 15px;
+  color: black;
+  margin-top: 20px;
+}
+.categories h2 {
+  text-align: center;
+}
+.categories ul {
+  padding: 0;
+  list-style: none;
+  padding-left: 20px;
+}
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333;
+  list-style-image: url("");
+  list-style: circle;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: purple;
+}
+a:visited {
+  color: brown;
+}
 
-  }
-  .box {
-    height: 200px;
-    width: 200px;
-    background-color: lightgray;
-    color: gray;
-    border: 5px gray solid;
-    padding-left: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.my-form {
+  padding: 20px;
+}
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+.my-form label {
+  display: block;
+}
+.my-form input[type="text"] {
+  padding: 6px;
+  width: 100%;
+  background-color: gray;
+  border: none;
+  border-radius: 4px;
+}
 
-  }
-  .categories {
-    border: 1px gray solid;
-    padding: 10px;
-    border-radius: 15px;
-    color: black;
-    margin-top: 20px;
+.my-form textarea {
+  padding: 6px;
+  width: 100%;
+  background-color: gray;
+  border-radius: 4px;
+}
 
-  }
-  .categories h2 {
-    text-align: center;
-  }
-  .categories ul {
-    padding: 0;
-    list-style: none;
-    padding-left: 20px;
-
-  }
-  .categories li {
-    padding-bottom: 6px;
-    border-bottom: dotted 1px #333;
-    list-style-image: url("");
-    list-style: circle;
-  }
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  a:hover {
-    color: red;
-  }
-  a:active {
-    color: purple;
-  }
-  a:visited {
-    color: brown;
-  }
-
-
-
-
-
-  .my-form{
-    padding: 20px;
-  }
-  .my-form .form-group{
-    padding-bottom: 15px;
-  }
-  .my-form label{
-    display: block;
-  }
-  .my-form input[type ="text"]{
-    padding: 6px;
-    width: 100%;
-  }
-
-  .my-form textarea{
-    padding: 6px;
-    width: 100%;
-  }
-
-  .button {
-    background-color: black;
-    color: red;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-
-  }
-  .button:hover{
-    background-color: red;
-    color: black;
-    font-weight: bold;
-  }
-  
-
+.button {
+  background-color: gray;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+.button:hover {
+  background-color: black;
+  color: gray;
+  font-weight: bold;
+}
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#main-block {
+  float: left;
+  width: 70%;
+}
+#side-block {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
