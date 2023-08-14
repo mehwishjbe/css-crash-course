@@ -15,7 +15,7 @@ body {
   font-weight: normal; /*font-weight: bold;*/
   /*font: normal 16px Times New Roman', Times;*/
   line-height: 1.6em;
-  margin: auto;
+  margin: 0;
 }
 .clr {
   clear: both;
@@ -179,4 +179,24 @@ a:visited {
   top: 100px;
 }
 /* POSITION END */
+
+
+/* PSEUDO STARTED */
+
+.my-list li:first-child{
+  background-color: lightslategray;
+}
+.my-list li:last-child{
+  background-color: lightslategray;
+}
+.my-list li:nth-child(5){
+  background-color: burlywood;
+}
+.my-list li:nth-child(even){
+  background-color: skyblue;
+}
+.my-list li:nth-child(odd){
+  background-color: lightslategray;
+}
+/* PSEUDO END */
 
